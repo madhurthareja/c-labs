@@ -1,3 +1,20 @@
+//                                 Author: Madhur Thareja
+//Date: 2021-08-02
+//Description: Project on Pizza Ordering System in C
+//Course: Introduction to Programming in C
+
+
+// Create a pizza ordering system. The system should have the following features:
+// 1. A pizza can have one of the following bases: Thin, Deep Pan, Stuffed, Whole Wheat
+// 2. A pizza can have any number of the following toppings: Onions, Tomatoes, Pepperoni, Cheese, Olives
+// 3. The price of the bases are as follows: Thin - 350, Deep Pan - 400, Stuffed - 300, Whole Wheat - 500
+// 4. The price of the toppings are as follows: Onions - 30, Tomatoes - 30, Pepperoni - 50, Cheese - 20, Olives - 30
+// 5. The price of a pizza is the sum of the price of the base and the price of the toppings
+// 6. The system should be able to create a new pizza, print the details of the pizza, create a new order, print the details of the order, and complete the order
+// 7. The system should be able to destroy the pizza after the order is completed
+// 8. The system should be able to calculate the price of the pizza
+
+// The main() function has been provided. You do not need to modify it. You need to implement the functions new_pizza, print_pizza, calculate_price, new_order, print_order, complete_order, and destroy_pizza
 
 #include <stdio.h>
 #include<string.h>
